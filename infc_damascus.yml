@@ -1,0 +1,43 @@
+timelimit: 3
+inf_circles:
+   - inf_circle_node:
+     x: 150
+     y: 94
+     radius: 250
+   - inf_circle_node:
+     x: 128
+     y: 106
+     radius: 250
+   - inf_circle_node:
+     x: 124
+     y: 90
+     radius: 250
+flags:
+   - flag_node:
+     x: 6
+     y: 58
+   - flag_node:
+     x: 64
+     y: 80
+   - flag_node:
+     x: 245
+     y: 81
+safezones:
+   - safezone_node:
+     x: 208
+     y: 72
+     radius: 6500
+     min_radius: 800
+     shrink_speed: 1
+   - safezone_node:
+     x: 23
+     y: 89
+     radius: 6500
+     min_radius: 800
+     shrink_speed: 1
+   - safezone_node:
+     x: 197
+     y: 11
+     radius: 6500
+     min_radius: 800
+     shrink_speed: 1
